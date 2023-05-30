@@ -21,11 +21,12 @@
 #=============================================================
 $version = "1.0.8"
 
-$customer = CUSTOMER
+#replace with your company name
+$CompanyName = "CompanyName"
 
 $logpath = "C:\ProgramData\AirWatch\UnifiedAgent\Logs"
 $logfile = "C:\ProgramData\AirWatch\UnifiedAgent\Logs\bios.log"
-$regTagPath = "HKLM:\SOFTWARE\$customer\BIOSSettings"
+$regTagPath = "HKLM:\SOFTWARE\$CompanyName\BIOSSettings"
 
 #=============================================================
 # Create Log Path
